@@ -1,7 +1,7 @@
-a = int (input("INGRESE UN NÚMERO: "))
+numero = int (input("INGRESE UN NÚMERO: "))
 
 res = 0
-for(i in range(a)):
+for(i in range(numero)):
     res = res + 2*a
 
-print(a)
+print(numero)
